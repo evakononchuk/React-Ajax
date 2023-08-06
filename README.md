@@ -1,0 +1,1 @@
+Use the OpenWeather API to get the city temperature in Celsius
