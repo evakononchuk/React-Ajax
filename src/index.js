@@ -2,6 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
 import "./App.css";
+import Weather from "./Weather";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -20,9 +21,13 @@ root.render(
         an h1 with the sentence "The temperature in city is something°C".
         Include it here
       </p>
+      <Weather city="Milan" />
 
       <h3>Challenge 3</h3>
       <p>Use the OpenWeather API to get the city temperature in Celsius</p>
+      <Weather city="Sydney" />
+      <Weather city="Oslo" />
+      <Weather city="New York" />
     </div>
   </StrictMode>
 );
